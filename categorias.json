@@ -1,0 +1,147 @@
+[{
+	"_id" : ObjectId("5e20123995de96bcbcc13ff1"),
+	"nombre" : "Utilidades",
+	"subcategorias" : [
+		{
+			"nombre" : "Calculadores",
+			"colores" : [
+				"#303744",
+				"#99B27C",
+				"#F7926C",
+				"#5B6063"
+			]
+		},
+		{
+			"nombre" : "Libretas",
+			"colores" : [
+				"#EDAF00",
+				"#3E4379",
+				"#0EA5C0",
+				"#F8BFAF"
+			]
+		},
+		{
+			"nombre" : "Aplicaciones de comunicación",
+			"colores" : [
+				"#12BCFF",
+				"#EAF4FC",
+				"#a7cbd7",
+				"#58a3e0",
+				"#2a87ab",
+				"#5A52A5"
+			]
+		},
+		{
+			"nombre" : "Clima",
+			"colores" : [
+				"#079567",
+				"#12BCFF",
+				"#8ADC58",
+				"#EAF4FC"
+			]
+		},
+		{
+			"nombre" : "Finanzas",
+			"colores" : [
+				"#2E477B",
+				"#18C3F6",
+				"#81C637",
+				"#16DFBA"
+			]
+		},
+		{
+			"nombre" : "Noticias",
+			"colores" : [
+				"#FFFFFF",
+				"#3C68C3",
+				"#333333"
+			]
+		}
+	]
+},
+{
+	"_id" : ObjectId("5e20125295de96bcbcc13ffb"),
+	"nombre" : "Entretenimiento",
+	"subcategorias" : [
+		{
+			"nombre" : "Juegos",
+			"colores" : [
+				"#D5D4D0",
+				"#B7CCA0",
+				"#F9E689",
+				"#A57494"
+			]
+		},
+		{
+			"nombre" : "Deportes",
+			"colores" : [
+				"#E7C44B",
+				"#CA0022",
+				"#AE564B"
+			]
+		}
+	]
+},
+{
+	"_id" : ObjectId("5e20127595de96bcbcc14010"),
+	"nombre" : "Estilo de vida",
+	"subcategorias" : [
+		{
+			"nombre" : "Deporte",
+			"colores" : [
+				"#E7C44B",
+				"#CA0022",
+				"#AE564B"
+			]
+		},
+		{
+			"nombre" : "Viajes",
+			"colores" : [
+				"#384679",
+				"#198EC7",
+				"#2B2B33",
+				"#FFFFFF"
+			]
+		},
+		{
+			"nombre" : "Comida",
+			"colores" : [
+				"#F8D501",
+				"#F73D3E",
+				"#E78516",
+				"#7ABA41"
+			]
+		},
+		{
+			"nombre" : "Citas",
+			"colores" : [
+				"#B9004A",
+				"#F8348A",
+				"#E7251E"
+			]
+		},
+		{
+			"nombre" : "Música",
+			"colores" : [
+				"#2A2C5A",
+				"#2D2D46",
+				"#675C7A",
+				"#FFFFFF"
+			]
+		}
+	]
+},
+{
+	"_id" : ObjectId("5e20127e95de96bcbcc14016"),
+	"nombre" : "Red social",
+	"subcategorias" : [
+		{
+			"nombre" : "Red social",
+			"colores" : [
+				"#00489A",
+				"#1774EB",
+				"#9CC6E5"
+			]
+		}
+	]
+}]
