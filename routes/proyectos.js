@@ -4,5 +4,6 @@ var proyectosController = require("../controllers/proyectos");
 
 api.get('/proyectos', proyectosController.getProyectos);
 api.get('/proyecto/:id', proyectosController.getProyecto);
+api.post('/proyecto', proyectosController.postProyecto);
 
 module.exports = api;

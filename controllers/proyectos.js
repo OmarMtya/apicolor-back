@@ -14,4 +14,22 @@ function getProyecto(req, res){
     });
 }
 
-module.exports = { getProyectos, getProyecto };
+function postProyecto(req, res){
+    console.log(req.body);
+    var proyecto = new Proyecto();
+    if(req.body.nombre && req.body.descripcion && req.body.categoria && req.body.subcategoria){
+        proyecto.nombre = req.body.nombre;
+        proyecto.categoria = req.body.categoria;
+        proyecto.subcategoria = req.body.subcategoria;
+        proyecto.descripcion = req.body.descripcion;
+        if(proyecto.save()){
+            res.status(200).send(proyecto);
+        }else{
+            res.status(400).send("error servidor");
+        }
+    }else{
+        res.status(400).send("error data");
+    }
+}
+
+module.exports = { getProyectos, getProyecto, postProyecto };

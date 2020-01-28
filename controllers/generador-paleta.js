@@ -28,8 +28,6 @@ function generarPaleta(req, res){
             return new Promise((res, rej)=>{
                 var promesasRetorno = [];
                 var contador = -1;
-                console.log(promesas.length);
-                
                 promesas.forEach((data, index) => {
                     if ((index) % 5 == 0) {
                         promesasRetorno[++contador] = [];
